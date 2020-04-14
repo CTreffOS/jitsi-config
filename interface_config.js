@@ -30,7 +30,7 @@ var interfaceConfig = {
     DISPLAY_WELCOME_PAGE_TOOLBAR_ADDITIONAL_CONTENT: false,
     APP_NAME: 'Jitsi Meet Chaostreff Osnabrück',
     NATIVE_APP_NAME: 'Jitsi Meet Chaostreff Osnabrück',
-    PROVIDER_NAME: 'Chaostreff Osnabrück',
+    PROVIDER_NAME: 'Chaostreff Osnabrück e.V.',
     LANG_DETECTION: true, // Allow i18n to detect the system language
     INVITATION_POWERED_BY: true,
 
@@ -175,11 +175,11 @@ var interfaceConfig = {
     // has a suboptimal experience. Browsers which are not listed as optimal or
     // unsupported are considered suboptimal. Valid values are:
     // chrome, chromium, edge, electron, firefox, nwjs, opera, safari
-    OPTIMAL_BROWSERS: [ 'chrome', 'chromium', 'firefox', 'nwjs', 'electron' ],
+    OPTIMAL_BROWSERS: [ 'chrome', 'chromium', 'nwjs', 'electron' ],
 
     // Browsers, in addition to those which do not fully support WebRTC, that
     // are not supported and should show the unsupported browser page.
-    UNSUPPORTED_BROWSERS: [],
+    UNSUPPORTED_BROWSERS: [ ],
 
     /**
      * A UX mode where the last screen share participant is automatically
@@ -206,7 +206,7 @@ var interfaceConfig = {
     * If this is set to false, the banner will not be rendered at all. If set to true, the check for extension(s)
     * being already installed is done before rendering.
     */
-    SHOW_CHROME_EXTENSION_BANNER: false
+    SHOW_CHROME_EXTENSION_BANNER: false,
 
     /**
      * When enabled, the kick participant button will not be presented for users without a JWT
@@ -222,7 +222,7 @@ var interfaceConfig = {
     /**
      * Specify custom URL for downloading android mobile app.
      */
-    // MOBILE_DOWNLOAD_LINK_ANDROID: 'https://play.google.com/store/apps/details?id=org.jitsi.meet',
+    MOBILE_DOWNLOAD_LINK_ANDROID: 'https://f-droid.org/en/packages/org.jitsi.meet/'
 
     /**
      * Specify URL for downloading ios mobile app.
