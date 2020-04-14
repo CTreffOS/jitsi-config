@@ -1,3 +1,3 @@
 
-## folder:
-´/usr/share/jitsi-meet´
+### folder:
+`/usr/share/jitsi-meet`
